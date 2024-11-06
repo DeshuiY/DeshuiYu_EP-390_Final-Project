@@ -9,7 +9,7 @@ For the instrument I want to design, I aim to create something that can be playe
 
 I'll use the LSM6DSOX sensor to let the performer adjust the instrument's tone or control the ADSR. The tone can be modified by the movement of the performer’s left hand, and each adjustment can be locked by pressing a lock button. For the right hand, based on my research on the MF01A-N-221-A pressure sensor, I will set up five pressure sensors attached to a wearable box. These will allow the performer to control pitch, switch between different modes, and shift octaves up and down.
 
-One inspiration for the ADSR control comes from my revised assignment involving the ultrasonic sensor. I believe I’ll continue refining this instrument design based on the insights from this project.[Google Drive](https://drive.google.com/drive/folders/103PamP4QufTZJQmk1LSWuOoSu0nwhBnQ?usp=share_link) [Repo](https://github.com/DeshuiY/EP-390_Distance-based-Musical-Instrument)
+One inspiration for the ADSR control comes from my revised assignment involving the ultrasonic sensor. I believe I’ll continue refining this instrument design based on the insights from this project.[Video](https://drive.google.com/drive/folders/103PamP4QufTZJQmk1LSWuOoSu0nwhBnQ?usp=share_link) [Repo](https://github.com/DeshuiY/EP-390_Distance-based-Musical-Instrument)
 
 
 
