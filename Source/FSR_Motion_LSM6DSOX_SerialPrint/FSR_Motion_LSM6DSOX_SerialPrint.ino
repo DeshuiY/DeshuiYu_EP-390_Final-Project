@@ -142,7 +142,7 @@ void loop() {
 
   Serial.println(distance);
 
-  delay(100);
+  delay(2);
 
 
   
