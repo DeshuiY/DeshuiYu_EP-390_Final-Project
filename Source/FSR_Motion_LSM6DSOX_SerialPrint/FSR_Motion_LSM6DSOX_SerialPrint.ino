@@ -8,6 +8,8 @@
 #define LSM_MISO 19   // MISO (Master In Slave Out) pin
 #define LSM_MOSI 18   // MOSI (Master Out Slave In) pin
 #define fsr1_PIN 14
+#define fsr2_PIN 15
+#define fsr3_PIN 16
 
 // I2C Pins
 // Note that the functions below don't explicitly make use of
@@ -33,7 +35,8 @@ SerialProtocol mode = I2C_PROTOCOL;
 float loopRateInMicroseconds = 10000;   // 10000us = 10ms
 
 int fsr1;
-
+int fsr2;
+int fsr3;
 // Below is Ultrasonic
 
 const int trigPin = 9;
@@ -82,6 +85,13 @@ void loop() {
   Serial.println(fsr1);
 
 
+  fsr2 = 1023 - analogRead(A1); // Pressure Sensor
+  Serial.print("fsr2/ ");
+  Serial.println(fsr2);
+
+  fsr3 = 1023 - analogRead(A3); // Pressure Sensor
+  Serial.print("fsr3/ ");
+  Serial.println(fsr3);
 
   // Refresh rate
   delayMicroseconds(loopRateInMicroseconds);
