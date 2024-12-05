@@ -89,7 +89,7 @@ void loop() {
   Serial.print("fsr2/ ");
   Serial.println(fsr2);
 
-  fsr3 = 1023 - analogRead(A3); // Pressure Sensor
+  fsr3 = 1023 - analogRead(A2); // Pressure Sensor
   Serial.print("fsr3/ ");
   Serial.println(fsr3);
 
